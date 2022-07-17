@@ -15,19 +15,6 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">WebSiteName</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-          </ul>
-        </div>
-      </nav>
       <div class="container">
         <h2>Tính điểm tốt nghiệp</h2>
         <div class="select_type">
@@ -39,44 +26,47 @@
                 <form>
                     <div class="form-group">
                       <label for="usr">Nhập điểm môn Toán:</label>
-                      <input type="number" class="form-control toan" name="toan">
+                      <input type="number" class="form-control toan" name="toan" value="0">
                     </div>
                     <div class="form-group">
                         <label for="usr">Nhập điểm môn Ngữ văn: </label>
-                        <input type="number" class="form-control nguvan" name="nguvan">
+                        <input type="number" class="form-control nguvan" name="nguvan" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm môn Ngoại ngữ: </label>
-                        <input type="number" class="form-control ngoaingu" name="ngoaingu">
+                        <input type="number" class="form-control ngoaingu" name="ngoaingu" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm môn Vật lí (hoặc Lịch sử): </label>
-                        <input type="number" class="form-control lichsu" name="lichsu">
+                        <input type="number" class="form-control lichsu" name="lichsu" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm môn Hóa học (hoặc Địa lí): </label>
-                        <input type="number" class="form-control hoa_dia" name="hoa_dia">
+                        <input type="number" class="form-control hoa_dia" name="hoa_dia" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm môn Sinh học (hoặc GDCD): </label>
-                        <input type="number" class="form-control sinh_gdcd" name="sinh_gdcd">
+                        <input type="number" class="form-control sinh_gdcd" name="sinh_gdcd" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm trung bình cả năm lớp 12: </label>
-                        <input type="number" class="form-control tb12" name="tb12">
+                        <input type="number" class="form-control tb12" name="tb12" value="0">
                         
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm khuyến khích (nếu có): </label>
-                        <input type="number" class="form-control khuyenkhich" name="khuyenkhich">
+                        <input type="number" class="form-control khuyenkhich" name="khuyenkhich" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm ưu tiên (nếu có): </label>
-                        <input type="number" class="form-control uutien" name="uutien">
+                        <input type="number" class="form-control uutien" name="uutien" value="0">
                       </div>
                       <div class="form-group">
                         <h2>Điểm của bạn: <span class="btn show_point"></span></h2>
                       </div>
+                      <div class="form-group noti">
+
+                    </div>
                     <div class="form-group">
                       <button type="submit" class="btn_thpt btn btn-success">Tính điểm</button>
                     </div>
@@ -86,30 +76,33 @@
                 <form>
                     <div class="form-group">
                       <label for="usr">Nhập điểm môn Toán:</label>
-                      <input type="number" class="form-control toana" name="toana">
+                      <input type="number" class="form-control toana" name="toana" value="0">
                     </div>
                     <div class="form-group">
                         <label for="usr">Nhập điểm môn Ngữ văn: </label>
-                        <input type="number" class="form-control nguvana" name="nguvana">
+                        <input type="number" class="form-control nguvana" name="nguvana" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm Tổ hợp: </label>
-                        <input type="number" class="form-control tohopa" name="tohopa">
+                        <input type="number" class="form-control tohopa" name="tohopa" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm trung bình cả năm lớp 12: </label>
-                        <input type="number" class="form-control tb12a" name="tb12a">
+                        <input type="number" class="form-control tb12a" name="tb12a" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm khuyến khích (nếu có): </label>
-                        <input type="number" class="form-control khuyenkhicha" name="khuyenkhicha">
+                        <input type="number" class="form-control khuyenkhicha" name="khuyenkhicha" value="0">
                       </div>
                       <div class="form-group">
                         <label for="usr">Nhập điểm ưu tiên (nếu có): </label>
-                        <input type="number" class="form-control uutiena" name="uutiena">
+                        <input type="number" class="form-control uutiena" name="uutiena" value="0">
                       </div>
                       <div class="form-group">
                         <h2>Điểm của bạn: <span class="btn show_pointa"></span></h2>
+                      </div>
+                      <div class="form-group notif">
+
                       </div>
                     <div class="form-group">
                       <button type="submit" class="btn_gdtx btn btn-success">Tính điểm</button>
